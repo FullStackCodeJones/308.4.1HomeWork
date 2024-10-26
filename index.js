@@ -10,10 +10,23 @@ console.log(csvData)
 const randi = csvData.split('\n');
 console.log(randi)
 //Part 2 Just Kidding, 'WHAT NOT TO DO"===============================================
+//Part 3===============================================
 
-const header = randi[0].split(',');
+/*const header = randi[0].split(',');
 console.log(header);
-const ID = randi[1].split(',');
+
+
+let rj = 0;
+while(rj <randi.length){
+    header[rj] = header[rj].toLowerCase();
+    rj++
+}*/
+
+
+//=================================
+
+
+/*const ID = randi[1].split(',');
 console.log(ID)
 const Name = randi[2].split(',');
 console.log(Name);
@@ -22,3 +35,21 @@ console.log(Occupation);
 const Age = randi[4].split(',');
 console.log(Age);
 //Don't pay the code above any mind! 😊
+*/
+let data = [];
+let headers = [];
+
+randi.forEach((string) => {
+    //check if first line
+    if (string == randi[0] ){
+        console.log(string)
+        headers = string.toLowerCase().split(',')
+        console.log(headers)
+    }
+    data.push(string.split(','));
+})
+//console.log(data);
+
+
+
+
