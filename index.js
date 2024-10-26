@@ -51,7 +51,7 @@ randi.forEach((string) => {
 //Sighhhhhhhhh My Head and eyes hurt 🥺I'm learning though.. kind of😊
 ////Part 3???=================================================
 
-let people = [
+/*let people = [
     { id: "42", name: "Bruce", occupation: "Knight", age: "41" },
     { id: "57", name: "Bob", occupation: "Fry Cook", age: "19" },
     { id: "63", name: "Blaine", occupation: "Quiz Master", age: "58" },
@@ -76,8 +76,22 @@ for (let i = 0; i < people.length; i++) {
 }
 let averageAge = totalAge / people.length;
 
-console.log("Average Age:", averageAge);
+console.log("Average Age:", averageAge);*/
 
-//============================💃🏽=========💃🏽==========================================
+//============================💃🏽===Let's Try this again-Home Stretch======💃🏽==========================================
+
+let sortedArray = [
+    { id: "42", name: "Bruce", occupation: "Knight", age: "41" },
+    { id: "57", name: "Bob", occupation: "Fry Cook", age: "19" },
+    { id: "63", name: "Blaine", occupation: "Quiz Master", age: "58" }
+];
+
+
+sortedArray.pop();
+
+
+const newObject1 = { id: "48", name: "Barry", occupation: "Runner", age: "25" };
+sortedArray.splice(1, 0, newObject1);
+
 
 
