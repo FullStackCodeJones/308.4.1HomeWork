@@ -9,7 +9,7 @@ console.log(csvData)
 //Part 1 Refactoring/Restructuring the CSV Data from 308.3.1
 const randi = csvData.split('\n');
 console.log(randi)
-//Part 2 ===============================================
+//Part 2 Just Kidding, 'WHAT NOT TO DO"===============================================
 
 const header = randi[0].split(',');
 console.log(header);
@@ -21,3 +21,4 @@ const Occupation = randi[3].split(',');
 console.log(Occupation);
 const Age = randi[4].split(',');
 console.log(Age);
+//Don't pay the code above any mind! 😊
