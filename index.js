@@ -7,5 +7,17 @@ const csvData = `ID,Name,Occupation,Age
 console.log(csvData)
 
 //Part 1 Refactoring/Restructuring the CSV Data from 308.3.1
-const rows = csvData.split('\n');
+const randi = csvData.split('\n');
+console.log(randi)
+//Part 2 ===============================================
 
+const header = randi[0].split(',');
+console.log(header);
+const ID = randi[1].split(',');
+console.log(ID)
+const Name = randi[2].split(',');
+console.log(Name);
+const Occupation = randi[3].split(',');
+console.log(Occupation);
+const Age = randi[4].split(',');
+console.log(Age);
