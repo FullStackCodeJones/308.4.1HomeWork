@@ -51,7 +51,7 @@ randi.forEach((string) => {
 //Sighhhhhhhhh My Head and eyes hurt 🥺I'm learning though.. kind of😊
 ////Part 3???=================================================
 
-/*let people = [
+let people = [
     { id: "42", name: "Bruce", occupation: "Knight", age: "41" },
     { id: "57", name: "Bob", occupation: "Fry Cook", age: "19" },
     { id: "63", name: "Blaine", occupation: "Quiz Master", age: "58" },
@@ -76,11 +76,11 @@ for (let i = 0; i < people.length; i++) {
 }
 let averageAge = totalAge / people.length;
 
-console.log("Average Age:", averageAge);*/
+console.log("Average Age:", averageAge);
 
 //============================💃🏽===Let's Try this again-Home Stretch======💃🏽==========================================
 
-let sortedArray = [
+/*let sortedArray = [
     { id: "42", name: "Bruce", occupation: "Knight", age: "41" },
     { id: "57", name: "Bob", occupation: "Fry Cook", age: "19" },
     { id: "63", name: "Blaine", occupation: "Quiz Master", age: "58" }
@@ -96,7 +96,7 @@ sortedArray.splice(1, 0, newObject1);
 const newObject2 = { id: "7", name: "Bilbo", occupation: "None", age: "111" };
 sortedArray.push(newObject2);
 
-console.log(sortedArray);
+console.log(sortedArray);*/
 //========================Part 5============Is that you?=============🎉🎊🥳🪩
 
 const finalArray = [
@@ -107,8 +107,8 @@ const finalArray = [
     { id: "7", name: "Bilbo", occupation: "None", age: "111" }
 ];
 
-const headers2 = Object.keys(finalArray[0]).join(","); // Get headers
-const csvRows = finalArray.map(row => `${row.id},${row.name},${row.occupation},${row.age}`); // Create CSV rows using template literals
-const csvString = [headers, ...csvRows].join("\n"); // Combine headers and rows
+const headers2 = Object.keys(finalArray[0]).join(","); 
+const csvRows = finalArray.map(row => `${row.id},${row.name},${row.occupation},${row.age}`); 
+const csvString = [headers, ...csvRows].join("\n"); 
 
 console.log(csvString);
