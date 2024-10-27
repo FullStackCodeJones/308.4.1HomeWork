@@ -96,3 +96,4 @@ sortedArray.splice(1, 0, newObject1);
 const newObject2 = { id: "7", name: "Bilbo", occupation: "None", age: "111" };
 sortedArray.push(newObject2);
 
+console.log(sortedArray);
